@@ -1,0 +1,10 @@
+INSERT INTO products(product_name, department_name, price, stock_quantity) VALUES ("sock", "clothing", 1.00, 500);
+INSERT INTO products(product_name, department_name, price, stock_quantity) VALUES ("undies", "clothing", 2.00, 500);
+INSERT INTO products(product_name, department_name, price, stock_quantity) VALUES ("book", "books", 10.00, 350);
+INSERT INTO products(product_name, department_name, price, stock_quantity) VALUES ("car", "auto", 10000.00, 10);
+INSERT INTO products(product_name, department_name, price, stock_quantity) VALUES ("laptop", "electronics", 1000.00, 100);
+INSERT INTO products(product_name, department_name, price, stock_quantity) VALUES ("iPhone", "electronics", 500.00, 200);
+INSERT INTO products(product_name, department_name, price, stock_quantity) VALUES ("toy", "toys", 20, 250);
+INSERT INTO products(product_name, department_name, price, stock_quantity) VALUES ("TV", "electronics", 600, 250);
+INSERT INTO products(product_name, department_name, price, stock_quantity) VALUES ("pen", "office supplies", 0.50, 1000);
+INSERT INTO products(product_name, department_name, price, stock_quantity) VALUES ("video game", "entertainment", 50, 300);
