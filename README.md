@@ -30,7 +30,7 @@ USE Bamazon;
 
 ```sql
 CREATE TABLE products (
-	item_id INTEGER(11) auto_increment NOT NULL,
+    item_id INTEGER(11) auto_increment NOT NULL,
     product_name VARCHAR(50),
     department_name VARCHAR(50),
     price DECIMAL(7, 2),
@@ -39,7 +39,7 @@ CREATE TABLE products (
 );
 
 CREATE TABLE departments (
-	department_id INTEGER(11) AUTO_INCREMENT NOT NULL,
+    department_id INTEGER(11) AUTO_INCREMENT NOT NULL,
     department_name VARCHAR(50),
     overhead_costs DECIMAL(8, 2),
     total_sales DECIMAL(8, 2),
@@ -53,7 +53,7 @@ CREATE TABLE departments (
 ALTER TABLE products ADD COLUMN product_sales DECIMAL(8, 2);
 ```
 
-* Finally run the following SQL command to populate the table with dummy entries.
+* Finally run the following SQL command to populate the products table with dummy entries.
 
 ```sql
 INSERT INTO products(product_name, department_name, price, stock_quantity) VALUES ("sock", "clothing", 1.00, 500);
@@ -80,9 +80,9 @@ Please run the following from your command line (Bash, for example) in the folde
 node bamazonCustomer.js
 ```
 
-Then refer to the following video for a full demonstration of all three modes:
+Then refer to the following video for a short full demonstration of all three modes:
 
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+[![Bamazon](http://img.youtube.com/vi/dh1dlIaj7Wk/0.jpg)](http://www.youtube.com/watch?v=dh1dlIaj7Wk)
 
 ### Manager mode (bamazonManager.js)
 
@@ -92,9 +92,9 @@ Please run the following from your command line (Bash, for example) in the folde
 node bamazonManager.js
 ```
 
-Then refer to the following video for a full demonstration of all three modes:
+Then refer to the following video for a short full demonstration of all three modes:
 
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+[![Bamazon](http://img.youtube.com/vi/dh1dlIaj7Wk/0.jpg)](http://www.youtube.com/watch?v=dh1dlIaj7Wk)
 
 ### Supervisor mode (bamazonSupervisor.js)
 
@@ -104,9 +104,9 @@ Please run the following from your command line (Bash, for example) in the folde
 node bamazonSupervisor.js
 ```
 
-Then refer to the following video for a full demonstration of all three modes:
+Then refer to the following video for a short full demonstration of all three modes:
 
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+[![Bamazon](http://img.youtube.com/vi/dh1dlIaj7Wk/0.jpg)](http://www.youtube.com/watch?v=dh1dlIaj7Wk)
 
 ## Built With
 

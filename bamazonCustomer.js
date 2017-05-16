@@ -85,7 +85,7 @@ function buyItem() {
                                         }], function(err6, res6) {
                                             if (err6) throw err6;
                                         });
-                                        connection.end();
+                                        main();
                                     });
                                 });
                             } else {
@@ -98,7 +98,7 @@ function buyItem() {
                                     }], function(err6, res6) {
                                         if (err6) throw err6;
                                     });
-                                    connection.end();
+                                    main();
                                 });
                             }
                         });
